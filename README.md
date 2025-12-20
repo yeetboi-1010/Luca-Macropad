@@ -38,4 +38,4 @@
 </ul>
 <br/>
 <h2>Conclusion</h2>
-<p>"This was super great to make and I can't wait to see what I can use what I've learned in the future! Thanks for reading :)"</p>
+<p>This was super great to make and I can't wait to see what I can use what I've learned in the future! Thanks for reading :)</p>
