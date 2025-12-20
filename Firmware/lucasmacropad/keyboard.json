@@ -1,0 +1,42 @@
+{
+    "manufacturer": "yeetboi-1010",
+    "keyboard_name": "handwired/lucasmacropad",
+    "maintainer": "yeetboi-1010",
+    "bootloader": "rp2040",
+     "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP1"],
+            ["GP2"],
+            ["GP3"],
+            ["GP4"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0428",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+    "LAYOUT": {
+        "layout": [
+            {"matrix": [0,0], "x":0, "y":0},
+            {"matrix": [1,0], "x":1, "y":1},
+            {"matrix": [2,0], "x":2, "y":1},
+            {"matrix": [3,0], "x":1, "y":2}
+            ]
+        }
+    },
+    "encoder": {
+        "rotary": [
+          { "pin_a": "GP28", "pin_b": "GP27", "resolution": 4 }
+        ]
+    }
+}
